@@ -1,0 +1,47 @@
+body {
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color: #ffefd5; /* Cor laranja clara */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px; /* Arredondando as bordas do card */
+  padding: 30px; /* Adicionando padding ao redor */
+  width: 25rem;
+}
+.card-header {
+  background-color: #ff4500; /* Cor laranja mais forte */
+  color: white;
+  border-radius: 8px 8px 0 0; /* Arredondando apenas a parte superior */
+  padding: 15px; /* Padding dentro do header */
+  text-align: center; /* Centralizando o texto no header */
+}
+.btn-even {
+  background-color: #ff6347; /* Cor vermelho */
+  color: white;
+  border-radius: 8px; /* Arredondando os botões */
+  padding: 10px 20px; /* Adicionando espaçamento interno */
+}
+.btn-odd {
+  background-color: #ff8c00; /* Cor laranja */
+  color: white;
+  border-radius: 8px; /* Arredondando os botões */
+  padding: 10px 20px; /* Adicionando espaçamento interno */
+}
+#result {
+  margin-top: 20px;
+  padding: 15px; /* Padding interno na caixa de resultado */
+  border-radius: 10px; /* Arredondando a caixa de resultado */
+}
+.btn-primary, .btn-secondary {
+  border-radius: 8px; /* Arredondando os botões primário e secundário */
+  padding: 10px 20px;
+}
+/* Ajusta a centralização e espaçamento dos botões */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
